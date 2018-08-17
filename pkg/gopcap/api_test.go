@@ -9,7 +9,7 @@ import (
 
 // Test the overall parsing functionality using the packaged testing .cap file.
 func TestParse(t *testing.T) {
-	src, err := os.Open("SkypeIRC.cap")
+	src, err := os.Open("../../pcaps/SkypeIRC.cap")
 	if err != nil {
 		t.Error("Missing pcap file.")
 	}
